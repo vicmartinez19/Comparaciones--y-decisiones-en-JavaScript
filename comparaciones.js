@@ -13,4 +13,6 @@ if (nota > 0 && nota <= 100) {
         console.log("Resultado: No aprobado");
     }
 
-} 
+} else {
+    console.log("Error: La nota debe estar entre 0 y 100.");
+}
